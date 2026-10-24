@@ -8,7 +8,7 @@ window.GRADPIXEL = {
     {
       id: "symath", title: "SyMath", genre: "Logic & puzzle", status: "available",
       description: "A world of logic puzzles, challenges, and discovery.",
-      image: "assets/symath.jpg", theme: "symath",
+      image: "assets/symath.png", theme: "symath",
       details: "Explore puzzles, solve challenges, and progress through a world built around logic.",
       storeUrl: "https://play.google.com/store/apps/details?id=com.GradPixel.SyMathLogicPuzzle",
       playtestUrl: "" // Use only when a real playtest is open.
@@ -16,7 +16,7 @@ window.GRADPIXEL = {
     {
       id: "fruit-pop", title: "Fruit Pop", genre: "Casual arcade", status: "available",
       description: "Colorful, quick-fire fun. Catch the moment and keep playing.",
-      image: "assets/fruit-pop.jpg", theme: "fruitpop",
+      image: "assets/fruit-pop.png", theme: "fruitpop",
       details: "A bright, fast-paced casual game built for quick play sessions.",
       storeUrl: "https://play.google.com/store/apps/details?id=com.GradPixel.FruitPop",
       playtestUrl: ""
