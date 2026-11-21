@@ -24,3 +24,32 @@ nav{color:#43506b}nav a:hover,.text-link:hover,footer a:hover{color:#3259e7}
 /* Non-clickable platform availability label; no App Store listing yet. */
 .ios-coming-soon{display:inline-flex;align-items:center;justify-content:center;padding:11px 17px;border:1px solid #a6a8b5;border-radius:3px;color:#646879;background:#f0f1f8;font-size:13px;font-weight:650;cursor:default;white-space:nowrap}
 dialog .ios-coming-soon{margin-top:15px;margin-left:10px;background:#30313b;color:#d1d3e0;border-color:#656675}
+
+/* Interactive 3D services — Pintura is the verified showcase, not a shop. */
+.experience-section{padding:95px clamp(22px,8vw,135px);background:linear-gradient(135deg,#f4f7ff,#fffdfb);border-top:1px solid var(--rule)}
+.experience-showcase{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(290px,.9fr);background:#fff;border:1px solid #dfe5f3;border-radius:22px;overflow:hidden;box-shadow:0 18px 48px #29375a12}
+.experience-visual{position:relative;display:grid;place-items:center;min-height:415px;overflow:hidden;background:radial-gradient(ellipse at 50% 32%,#e7e1d7,#b9a999 66%,#77746d)}
+.experience-visual-tag{position:absolute;left:23px;bottom:22px;font-size:10px;letter-spacing:.12em;font-weight:750;color:#fff;background:#24231fbb;padding:9px 12px;border-radius:5px}
+.experience-room{position:relative;isolation:isolate;width:75%;height:54%;max-width:430px;perspective:760px}
+.experience-room-rear,.experience-room-left,.experience-room-right{position:absolute;display:flex;justify-content:space-around;align-items:center;background:#f1ebe2;border:1px solid #d3c5b3;box-shadow:0 12px 30px #554a3e30}
+.experience-room-rear{inset:4% 19% 5%}
+.experience-room-left{inset:0 81% 0 -8%;transform:skewY(12deg);transform-origin:right center;background:#ded3c3}
+.experience-room-right{inset:0 -8% 0 81%;transform:skewY(-12deg);transform-origin:left center;background:#d8ccbc}
+.experience-room i{display:block;width:23%;height:41%;background:linear-gradient(138deg,#c08d79,#655c70 45%,#d8bd98);border:5px solid #faf8f3;box-shadow:0 5px 12px #55433245}
+.experience-room-left i,.experience-room-right i{width:34%;height:30%;border-width:3px}
+.experience-room-rear i:nth-child(2){background:linear-gradient(45deg,#5e7996,#e0c8a8,#8fa7a1)}
+.experience-room-rear i:nth-child(3){background:linear-gradient(20deg,#aa8a81,#c1a3c9,#5d7a86)}
+.experience-plinth{position:absolute;z-index:2;left:45%;bottom:-8%;width:10%;height:27%;background:linear-gradient(95deg,#8c8b84,#edebe7,#b9b6ac);box-shadow:0 12px 15px #4e473b47}
+.experience-plinth:before{content:"";display:block;position:absolute;left:23%;bottom:95%;width:56%;height:60%;border-radius:55% 45% 35% 25%;background:linear-gradient(120deg,#9f8569,#dfc7aa,#84664a);transform:rotate(-12deg)}
+.experience-copy{padding:clamp(28px,4vw,58px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.experience-copy h3{font-size:clamp(34px,4.2vw,58px);letter-spacing:-.055em;line-height:1.04;margin:15px 0 20px}
+.experience-copy p{color:#5b657b;line-height:1.7;margin:0 0 15px;max-width:480px;font-size:15px}
+.experience-copy .experience-note{font-size:13px;color:#777269;border-left:3px solid #ceb38b;padding-left:13px;margin-top:6px}
+.experience-actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:17px}
+.experience-actions a{display:inline-flex;align-items:center;padding:12px 16px;border-radius:9px;font-weight:700;font-size:13px;border:1px solid #9daaca;transition:background .2s,color .2s}
+.experience-actions .experience-primary{background:#283b63;color:#fff;border-color:#283b63}
+.experience-actions .experience-primary:hover{background:#415d91}
+.experience-actions .experience-secondary:hover{background:#e6ebf6}
+@media(max-width:900px){.experience-showcase{grid-template-columns:1fr}.experience-visual{min-height:290px}.experience-copy{padding:29px}.experience-section{padding-top:70px;padding-bottom:70px}}
+@media(max-width:500px){.experience-visual{min-height:235px}.experience-room{width:80%;height:61%}.experience-section .section-heading{margin-bottom:25px}.experience-actions a{width:100%;justify-content:center}.experience-visual-tag{font-size:8px;left:12px;bottom:12px}}
+@media(prefers-reduced-motion:reduce){.experience-actions a{transition:none}}
