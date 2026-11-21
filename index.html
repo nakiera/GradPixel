@@ -4,20 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f7f9ff">
-  <meta name="description" content="Explore SyMath, Fruit Pop and upcoming games from GradPixel. Discover new releases and join future playtests.">
+  <meta name="description" content="Explore GradPixel games and bespoke interactive 3D experiences. Visit Pintura, our virtual gallery showcase.">
   <meta property="og:title" content="GradPixel — Games">
-  <meta property="og:description" content="Discover our games and help shape what's next.">
+  <meta property="og:description" content="Discover our games and explore our first interactive 3D exhibition.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://gradpixel.com/assets/gradpixel-logo.png">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
-  <title>GradPixel — Games</title>
+  <title>GradPixel — Games &amp; Digital Experiences</title>
 </head>
 <body>
-  <a class="skip" href="#games">Skip to games</a>
+  <a class="skip" href="#games">Skip to content</a>
   <header class="site-header">
     <a class="wordmark" href="#top" aria-label="GradPixel home"><img class="brand-icon" src="assets/gradpixel-emblem.jpg" alt="" width="40" height="40"><span>GRADPIXEL</span></a>
-    <nav aria-label="Main navigation"><a href="#games">Games</a><a href="#playtesting">Playtesting</a><a href="#contact">Contact</a></nav>
+    <nav aria-label="Main navigation"><a href="#games">Games</a><a href="#experiences">3D Experiences</a><a href="#playtesting">Playtesting</a><a href="#contact">Contact</a></nav>
   </header>
   <main id="top">
     <section class="intro" aria-labelledby="intro-title">
@@ -31,11 +31,23 @@
       <div class="section-heading"><div><span class="kicker">THE COLLECTION</span><h2 id="games-title">Our games<span class="period">.</span></h2></div><p>Something different to play.</p></div>
       <div id="game-grid" class="game-grid"></div>
     </section>
+    <section class="experience-section" id="experiences" aria-labelledby="experiences-title">
+      <div class="section-heading"><div><span class="kicker">CREATIVE TECHNOLOGY · GRADPIXEL</span><h2 id="experiences-title">Digital spaces.<br>Real experiences<span class="period">.</span></h2></div><p>Interactive 3D environments, designed with purpose.</p></div>
+      <div class="experience-showcase">
+        <div class="experience-visual" aria-label="Abstract architectural illustration of a virtual exhibition room" role="img">
+          <div class="experience-room"><div class="experience-room-left"><i></i><i></i></div><div class="experience-room-rear"><i></i><i></i><i></i></div><div class="experience-room-right"><i></i><i></i></div><div class="experience-plinth"></div></div>
+          <span class="experience-visual-tag">PINTURA · INTERACTIVE 3D EXHIBITION</span>
+        </div>
+        <div class="experience-copy"><span class="kicker">OUR FIRST LIVE SHOWCASE</span><h3>Explore Pintura.</h3><p>Experience a custom virtual art exhibition with walkable 3D spaces, artwork details, sculptures, and access across desktop and mobile.</p><p>GradPixel creates and maintains tailored digital spaces. Virtual galleries are our first showcase; future applications may include showrooms and retail experiences, developed with the right product, security and commerce infrastructure.</p><p class="experience-note">Your artwork and content remain yours. The GradPixel technology platform stays with us.</p>
+          <div class="experience-actions"><a class="experience-primary" href="https://pintura.gradpixel.com/" target="_blank" rel="noopener noreferrer">Visit the Pintura gallery ↗</a><a class="experience-secondary" href="mailto:info@gradpixel.com?subject=GradPixel%203D%20Experience%20Inquiry">Discuss a project ↗</a></div>
+        </div>
+      </div>
+    </section>
     <section id="playtesting" class="playtesting" aria-labelledby="playtest-title">
       <div class="playtest-head"><span class="kicker">BE PART OF WHAT'S NEXT</span><h2 id="playtest-title">Play early.<br>Help make it better.</h2></div>
       <div class="playtest-content"><p>We're building more games. When a playtest opens, you can volunteer to try a new game and share your feedback. No experience needed.</p><div id="test-status" class="test-status" role="status"></div><a class="outline-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a></div>
     </section>
-    <section class="contact" id="contact" aria-labelledby="contact-title"><span class="kicker">SAY HELLO</span><h2 id="contact-title">Have a question?<br>We'd love to hear it.</h2><p>For game feedback, playtesting interest, or general inquiries.</p><div id="contact-actions" class="contact-actions"></div></section>
+    <section class="contact" id="contact" aria-labelledby="contact-title"><span class="kicker">SAY HELLO</span><h2 id="contact-title">Have a question?<br>We'd love to hear it.</h2><p>For games, playtesting, bespoke 3D experiences, or general inquiries.</p><div id="contact-actions" class="contact-actions"></div></section>
   </main>
   <footer><span>© <span id="year"></span> GradPixel</span><span>Made for players.</span><a href="#top">Back to top ↑</a><nav aria-label="Legal and support"><a href="symath/privacy/">SyMath Privacy</a> · <a href="fruitpop/privacy/">Fruit Pop Privacy</a> · <a href="account-deletion/">Data Deletion</a> · <a href="support/">Support</a></nav></footer>
   <dialog id="game-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Close game details">✕</button><div id="dialog-body"></div></dialog>
